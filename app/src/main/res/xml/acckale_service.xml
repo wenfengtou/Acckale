@@ -1,0 +1,6 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes=""
+    android:accessibilityFeedbackType="feedbackVisual"
+    android:canRequestFilterKeyEvents="true"
+    android:canControlMagnification="true"
+    android:description="@string/acckale_service_description" />
