@@ -2,9 +2,10 @@
     android:description="@string/acckale_service_description"
     android:accessibilityEventTypes="typeViewClicked|typeViewLongClicked|typeViewSelected|typeViewFocused|typeViewTextChanged|typeWindowStateChanged|typeNotificationStateChanged|typeViewHoverEnter|typeViewHoverExit|typeTouchExplorationGestureStart|typeTouchExplorationGestureEnd|typeWindowContentChanged|typeViewScrolled|typeViewTextSelectionChanged|typeAllMask" android:accessibilityFeedbackType="feedbackSpoken|feedbackHaptic|feedbackAudible"
     android:notificationTimeout="0"
-    android:accessibilityFlags="flagDefault|flagRequestTouchExplorationMode|flagReportViewIds|flagRequestFilterKeyEvents|flagRetrieveInteractiveWindows"
+    android:accessibilityFlags="flagDefault|flagRequestTouchExplorationMode|flagReportViewIds|flagRequestFilterKeyEvents|flagRetrieveInteractiveWindows|flagIncludeNotImportantViews"
     android:canRetrieveWindowContent="true"
     android:canRequestTouchExplorationMode="false"
     android:canRequestFilterKeyEvents="true"
     android:canControlMagnification="true"
+    android:packageNames="com.tencent.weread"
     android:canRequestFingerprintGestures="true"/>
